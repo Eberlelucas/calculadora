@@ -3,8 +3,9 @@
 
 int main(){
 	printf("Projeto calculadora\n");
-
-	double x, y;
+	
+	double x = ler_double();
+	double y = ler_double();
   	printf("Soma: %.2f\n", soma(x, y));
 	printf("Subtracao: %.2f\n", subtracao(x,y));
 	printf("Multiplicação: %.2f\n", multiplicacao(x,y));

@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include "funcoes.h"
 
-int soma(double a, double b) {
+double soma(double a, double b) {
     return a + b;
 }
 
-int subtracao(double a, double b) {
+double subtracao(double a, double b) {
 	return a - b;
 }
 
-int multiplicacao(double a, double b) {
+double  multiplicacao(double a, double b) {
 	return a*b;
 }
 
@@ -21,3 +21,15 @@ double divisao(double a, double b) {
     return a / b;
 }
 
+double ler_double() {
+	double x;
+
+	printf("Insira um número válido\n");
+
+	while (scanf("%lf", &x) != 1) {
+		printf("Digite um número válido\n");
+		while (getchar() != '\n');
+	}
+
+	return x;
+}
