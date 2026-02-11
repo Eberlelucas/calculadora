@@ -1,10 +1,10 @@
 #ifndef FUNCOES_H
 #define FUNCOES_H
 
-int soma(int a, int b);  // declaração da função soma
-int subtracao(int a, int b);
-int multiplicacao(int a, int b);
-double divisao(int a, int b);
+double soma(double a, double b);  // declaração da função soma
+double subtracao(double a, double b);
+double multiplicacao(double a, double b);
+double divisao(double a, double b);
 
 #endif
 
