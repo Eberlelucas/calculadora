@@ -1,0 +1,8 @@
+# Ignorar executáveis
+main
+*.o
+*.exe
+
+# Ignorar arquivos temporários do editor
+*.swp
+
